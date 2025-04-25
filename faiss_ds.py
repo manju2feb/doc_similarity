@@ -318,11 +318,9 @@ def get_best_intro_obj(doc1_heads, doc1_heads_emb, doc2_heads, heads_index):
 
 
 def main():
-    # doc1_path = '/Users/shamweelmohammed/Desktop/UW/AK/iadrg example 2_with_LDCP.docx'
-    # # doc2_path = '/Users/shamweelmohammed/Desktop/UW/AK/NonClinical_Protocol_Template.docx'
-    # doc2_path = '/Users/shamweelmohammed/Desktop/UW/AK/2019-03-28_BSSR_Protocol_Template (1).docx'
-    doc1_path = '/Users/shamweelmohammed/Desktop/UW/AK/CSR_Sample_1.docx'
-    doc2_path = '/Users/shamweelmohammed/Desktop/UW/AK/Protocol_Sample_2.docx'
+    
+    doc1_path = '/CSR_Sample_1.docx'
+    doc2_path = '/Protocol_Sample_2.docx'
     
     try:
         doc1 = docx.Document(doc1_path)
