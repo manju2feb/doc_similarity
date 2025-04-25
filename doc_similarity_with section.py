@@ -216,8 +216,8 @@ def best_match_found(best_match):
 
 def main():
    
-    doc1_path = '/UW/AK/CSR_Sample.docx'
-    doc2_path = '/UW/AK/Protocol_Sample_1.docx'
+    doc1_path = '/CSR_Sample.docx'
+    doc2_path = '/Protocol_Sample_1.docx'
     
     try:
         doc1 = docx.Document(doc1_path)
